@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./todos.db'
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./todosapp.db'
 
 
 # Creates a SQLAlchemy engine instance that serves as a factory for database connections.
